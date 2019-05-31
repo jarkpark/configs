@@ -262,10 +262,11 @@ kubectl get <resourceType> [<resource>] [OPTIONS]
 	-l <label> [not]in (val1,val2[,...]) = show resource if <label> value is in/not in list
 	-n <namespace> = show resource if resource is in <namespace> namespace
 	--all-namespaces = show resources in all namespaces
+	--all = all resources based on search scope
 	-o yaml|json|wide = show resource yaml or json manifest or additional columns
 
 # Show All Resources:
-kubectl get all
+kubectl get --all
 
 # Show Details of One or Many Resources:
 kubectl describe <resourceType> [<resource>]
