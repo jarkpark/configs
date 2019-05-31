@@ -1,6 +1,3 @@
-# to see if .bash_profile ran on this instance of terminal
-echo "*** ~/.bash_profile started! ***"
-
 # git autocompletion from
 # https://github.com/git/git/tree/master/contrib/completion
 if [ -f ~/configs/git-completion.bash ]; then
@@ -27,6 +24,10 @@ if [[ -f /usr/local/bin/python3 ]]; then
 fi
 
 alias lss="ls -Gahl"
+
+if [[ -f ~/configs/cheatsheet.sh ]]; then
+	alias hh="less ~/configs/cheatsheet.sh"
+fi
 
 # handy functions
 togglewifi () {
