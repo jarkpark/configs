@@ -1,0 +1,15 @@
+awscli
+gdbm
+gettext
+git
+git-flow
+icu4c
+kubernetes-cli
+openssl
+pcre2
+postgresql
+python
+readline
+sqlite
+tree
+xz
