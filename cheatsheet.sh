@@ -316,6 +316,14 @@ kubectl exec <pod> [-c <container>] -- <command>
 # **************************************** /Kubernetes ****************************************
 ====================================================================================================
 # **************************************** Python ****************************************
+# /usr/local/bin/python3 -> /usr/local/Cellar/python/3.7.3/bin/python3
+# sys.path = [
+#   '',
+#   '/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python37.zip'.
+#   '/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7',
+#   '/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/lib-dynload',
+#   '/usr/local/lib/python3.7/site-packages'
+# ]
 
 # Create a Virtual Environment:
 python3 -m venv ~/.virtualenvs/<virtualEnvironment>
@@ -325,5 +333,11 @@ source ~/.virtualenvs/<virtualEnvironment>/bin/activate
 
 # Install Project Dependencies/Packages Inside Virtual Environment:
 pip install [-e .[all]]
+
+# Update package:
+pip install --update <package>
+
+# List Packages:
+pip list
 
 # **************************************** /Python ****************************************
