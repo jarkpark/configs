@@ -38,5 +38,7 @@ togglewifi () {
 	echo "Toggled off then on!"
 }
 
+cdd () { cd "$@" && ls; }
+
 # to see if .bash_profile ran on this instance of terminal
 echo "*** ~/.bash_profile finished! ***"
