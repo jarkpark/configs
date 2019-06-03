@@ -1,3 +1,5 @@
+# Source this from ~/.bash_profile
+
 # git autocompletion from
 # https://github.com/git/git/tree/master/contrib/completion
 if [ -f ~/configs/git-completion.bash ]; then
@@ -23,7 +25,8 @@ if [[ -f /usr/local/bin/python3 ]]; then
 	alias python2="/usr/bin/python"
 fi
 
-alias lss="ls -Gahl"
+alias lss="ls -Ghl"
+alias lsa="ls -Gahl"
 
 if [[ -f ~/configs/cheatsheet.sh ]]; then
 	alias hh="less ~/configs/cheatsheet.sh"
