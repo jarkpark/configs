@@ -44,4 +44,5 @@ togglewifi () {
 cdd () { cd "$@" && ls -Ghl; }
 
 # to see if .bash_profile ran on this instance of terminal
-echo "*** ~/.bash_profile finished! ***"
+echo "$PWD"
+lss
