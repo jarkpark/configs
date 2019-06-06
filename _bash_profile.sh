@@ -64,6 +64,16 @@ ff () {
 }
 FUNCTIONS=$"${FUNCTIONS}\nff <file_or_directory>"
 
+treee () {
+	if [ -z "$@" ]
+	then
+		tree -Ch -L 1
+	else
+		tree -Ch -L $@
+	fi
+}
+FUNCTIONS=$"${FUNCTIONS}\ntree [<depth_level_to_traverse>]"
+
 
 # snippets (echo all available aliases and functions)
 alias snippets="echo -e \"$ALIASES\" echo -e \"$FUNCTIONS\""
