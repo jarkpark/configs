@@ -42,7 +42,6 @@ Plug.app
 Preview.app
 QuickTime Player.app
 Reminders.app
-Rocket.app
 Safari.app
 Siri.app
 Slack.app
