@@ -5,11 +5,16 @@ git
 git-flow
 icu4c
 kubernetes-cli
+libyaml
+lua
 openssl
 pcre2
+perl
 postgresql
 python
 readline
+ruby
 sqlite
 tree
+vim
 xz
