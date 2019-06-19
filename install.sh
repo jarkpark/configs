@@ -61,6 +61,7 @@ do
 done
 
 # install homebrew cask formulae
+# TODO: add any Applications that exist as casks
 cask_formulae=(
     minikube
     virtualbox
@@ -84,8 +85,13 @@ do
 done
 
 # install oh-my-zsh
+echo "Installing oh-my-zsh and setting zsh as the default user shell..."
 curl -Lo install.sh https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh
-sh install.sh --unattended
+RUNZSH='no' sh install.sh 
 
 # symlinks
 ln -Fsv ~/repos/dotfiles/.zshrc ~/.zshrc
+
+# TODO: application preferences
+# iTerm2, PyCharm
+
