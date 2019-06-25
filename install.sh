@@ -87,7 +87,10 @@ done
 # install oh-my-zsh
 echo "Installing oh-my-zsh and setting zsh as the default user shell..."
 curl -Lo install.sh https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh
-RUNZSH='no' sh install.sh 
+sh install.sh --unattended
+
+# set brew version of zsh as default shell
+sudo chsh -s $(which zsh) $USER
 
 # symlinks
 ln -Fsv ~/repos/dotfiles/.zshrc ~/.zshrc
