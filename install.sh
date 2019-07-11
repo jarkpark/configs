@@ -63,7 +63,14 @@ done
 # install homebrew cask formulae
 # TODO: add any Applications that exist as casks
 cask_formulae=(
+    docker
+    google-chrome
+    iterm2
+    jetbrains-toolbox
+    lunar
     minikube
+    spectacle
+    spotify
     virtualbox
 )
 brew_cask_list=","$(brew cask list | tr "\n" ",")
