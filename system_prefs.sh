@@ -41,12 +41,16 @@ defaults write com.apple.dock magnification -bool false
 defaults write com.apple.dock autohide -bool true
 
 # Automatically hide and show the Dock (delay)
-# Undo with: defaults delete com.apple.Dock autohide-delay
 defaults write com.apple.Dock autohide-delay -float 0
 
 # Automatically hide and show the Dock (duration)
-# Undo with: defaults delete com.apple.Dock autohide-time-modifier
 defaults write com.apple.Dock autohide-time-modifier -float 0
+
+# Show recent applications in Dock
+defaults write com.apple.dock show-recents -bool false
+
+# Make Dock icons of hidden applications translucent
+defaults write com.apple.dock showhidden -bool true
 
 
 ##################################################
@@ -63,7 +67,9 @@ defaults write com.apple.dock expose-group-apps -bool true
 # Security & Privacy
 ##################################################
 # TODO: Require password immediately, Allow apps downloaded from identified developers
-
+# General > Require password immediately after sleep or screen saver begins
+defaults write com.apple.screensaver askForPassword -int 1
+defaults write com.apple.screensaver askForPasswordDelay -int 0
 
 ##################################################
 # Display
