@@ -67,7 +67,7 @@ defaults write com.apple.dock expose-group-apps -bool true
 # Security & Privacy
 ##################################################
 # TODO: Require password immediately, Allow apps downloaded from identified developers
-# General > Require password immediately after sleep or screen saver begins
+# General > Require password 'immediately' after sleep or screen saver begins (NEED TO VERIFY THIS!)
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
 
@@ -137,8 +137,24 @@ defaults write com.apple.menuextra.clock IsAnalog -bool false
 
 
 ##################################################
+# Finder
+##################################################
+# General > Show these items on the desktop
+defaults write com.apple.finder ShowHardDrivesOnDesktop -bool false
+defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
+defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
+
+# View > Show Status Bar
+defaults write com.apple.finder ShowStatusBar -bool true
+
+# View > Show Path Bar
+defaults write com.apple.finder ShowPathbar -bool true
+
+
+##################################################
 # Post-Setup Steps
 ##################################################
+killall cfprefsd
 killall Dock
 killall Finder
 killall SystemUIServer
