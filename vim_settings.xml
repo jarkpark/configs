@@ -1,0 +1,335 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="true" />
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/repos/pytest-101/search_template_py.py" timestamp="1563210553585">
+        <mark key="'" line="95" column="0" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1563388285956">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/repos/samba/recommendations-api/setup.py" timestamp="1562189142230">
+        <mark key="'" line="150" column="0" />
+      </file>
+      <file name="$USER_HOME$/repos/pytest-101/calculator.py" timestamp="1562876994080">
+        <mark key="'" line="28" column="0" />
+        <mark key="[" line="12" column="30" />
+        <mark key="]" line="13" column="28" />
+        <mark key="." line="13" column="28" />
+        <mark key="^" line="13" column="28" />
+      </file>
+      <file name="$USER_HOME$/repos/linkedinlearning-pytest/test_checkout.py" timestamp="1562900779026">
+        <mark key="'" line="5" column="0" />
+        <mark key="[" line="36" column="0" />
+        <mark key="]" line="37" column="16" />
+        <mark key="." line="37" column="16" />
+        <mark key="^" line="37" column="16" />
+      </file>
+      <file name="/Python Console" timestamp="1563387914197">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/fragment.py" timestamp="1562105213899">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/repos/samba/recommendations-api/scripts/readmeio.py" timestamp="1563394240573">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="92" column="22" />
+        <mark key="]" line="92" column="50" />
+        <mark key="^" line="92" column="50" />
+        <mark key="." line="92" column="50" />
+      </file>
+      <file name="$USER_HOME$/repos/pytest-101/test_calculator.py" timestamp="1563142747928">
+        <mark key="'" line="17" column="0" />
+        <mark key="[" line="34" column="28" />
+        <mark key="]" line="34" column="36" />
+        <mark key="^" line="34" column="36" />
+        <mark key="." line="34" column="36" />
+      </file>
+      <file name="/a.dummy" timestamp="1562969047200">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/repos/openapi-combiner/requirements.txt" timestamp="1562607208780">
+        <mark key="'" line="6" column="0" />
+        <mark key="[" line="9" column="0" />
+        <mark key="]" line="9" column="0" />
+        <mark key="." line="9" column="0" />
+        <mark key="^" line="5" column="0" />
+      </file>
+      <file name="$USER_HOME$/repos/pytest-101/test_search_template_py.py" timestamp="1563210384529" />
+      <file name="$USER_HOME$/repos/samba/recommendations-api/scripts/tests/test_readmeio.py" timestamp="1563389620605">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="1" column="0" />
+        <mark key="^" line="1" column="23" />
+      </file>
+      <file name="$USER_HOME$/repos/openapi-combiner/readmeio.py" timestamp="1562601281420">
+        <mark key="'" line="18" column="36" />
+        <mark key="^" line="10" column="0" />
+      </file>
+      <file name="/" timestamp="1561573405235">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/repos/openapi-combiner/openapi_combiner.py" timestamp="1562092133242">
+        <mark key="'" line="22" column="0" />
+        <mark key="[" line="17" column="9" />
+        <mark key="]" line="17" column="45" />
+        <mark key="^" line="19" column="14" />
+        <mark key="." line="19" column="14" />
+      </file>
+      <file name="$USER_HOME$/repos/samba/recommendations-api/pytest.ini" timestamp="1563394606979">
+        <mark key="[" line="11" column="9" />
+        <mark key="]" line="12" column="10" />
+        <mark key="^" line="12" column="10" />
+        <mark key="." line="12" column="10" />
+      </file>
+      <file name="$USER_HOME$/repos/openapi-combiner/venv/lib/python3.7/site-packages/requests/__init__.py" timestamp="1561745401971">
+        <mark key="'" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/.virtualenvs/recommendations-api/lib/python3.7/site-packages/ruamel/yaml/__init__.py" timestamp="1563230815477">
+        <mark key="'" line="8" column="18" />
+      </file>
+      <file name="$USER_HOME$/repos/linkedinlearning-pytest/checkout.py" timestamp="1562900383205">
+        <mark key="[" line="12" column="0" />
+        <mark key="]" line="12" column="0" />
+        <mark key="^" line="13" column="7" />
+        <mark key="." line="12" column="0" />
+      </file>
+      <file name="$USER_HOME$/repos/samba/recommendations-api/tests/live_tests/wsgi/rest/resources/test_endpoints.py" timestamp="1563389388989">
+        <mark key="'" line="184" column="0" />
+      </file>
+      <file name="$USER_HOME$/repos/openapi-combiner/swagger/index.html" timestamp="1561061636763">
+        <mark key="[" line="41" column="20" />
+        <mark key="]" line="41" column="25" />
+        <mark key="." line="41" column="25" />
+        <mark key="^" line="41" column="25" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="23" column="0" filename="$USER_HOME$/repos/openapi-combiner/readmeio.py" />
+      <jump line="28" column="0" filename="$USER_HOME$/repos/openapi-combiner/readmeio.py" />
+      <jump line="51" column="0" filename="$USER_HOME$/repos/openapi-combiner/readmeio.py" />
+      <jump line="49" column="0" filename="$USER_HOME$/repos/openapi-combiner/readmeio.py" />
+      <jump line="52" column="0" filename="$USER_HOME$/repos/openapi-combiner/readmeio.py" />
+      <jump line="75" column="0" filename="$USER_HOME$/repos/openapi-combiner/readmeio.py" />
+      <jump line="200" column="0" filename="$USER_HOME$/repos/openapi-combiner/readmeio.py" />
+      <jump line="217" column="0" filename="$USER_HOME$/repos/openapi-combiner/readmeio.py" />
+      <jump line="22" column="0" filename="$USER_HOME$/repos/openapi-combiner/readmeio.py" />
+      <jump line="18" column="36" filename="$USER_HOME$/repos/openapi-combiner/readmeio.py" />
+      <jump line="23" column="0" filename="$USER_HOME$/repos/openapi-combiner/requirements.txt" />
+      <jump line="214" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/readmeio.py" />
+      <jump line="10" column="4" filename="$USER_HOME$/repos/pytest-101/test_calculator.py" />
+      <jump line="4" column="0" filename="$USER_HOME$/repos/pytest-101/test_calculator.py" />
+      <jump line="3" column="0" filename="$USER_HOME$/repos/pytest-101/calculator.py" />
+      <jump line="7" column="0" filename="$USER_HOME$/repos/pytest-101/calculator.py" />
+      <jump line="12" column="0" filename="$USER_HOME$/repos/pytest-101/calculator.py" />
+      <jump line="15" column="0" filename="$USER_HOME$/repos/pytest-101/test_calculator.py" />
+      <jump line="38" column="4" filename="$USER_HOME$/repos/pytest-101/test_calculator.py" />
+      <jump line="16" column="3" filename="$USER_HOME$/repos/pytest-101/calculator.py" />
+      <jump line="51" column="21" filename="$USER_HOME$/repos/pytest-101/test_calculator.py" />
+      <jump line="21" column="32" filename="$USER_HOME$/repos/pytest-101/test_calculator.py" />
+      <jump line="64" column="4" filename="$USER_HOME$/repos/pytest-101/test_calculator.py" />
+      <jump line="13" column="0" filename="$USER_HOME$/repos/pytest-101/calculator.py" />
+      <jump line="23" column="8" filename="$USER_HOME$/repos/pytest-101/calculator.py" />
+      <jump line="52" column="0" filename="$USER_HOME$/repos/pytest-101/test_calculator.py" />
+      <jump line="5" column="0" filename="$USER_HOME$/repos/pytest-101/test_calculator.py" />
+      <jump line="28" column="7" filename="$USER_HOME$/repos/pytest-101/test_calculator.py" />
+      <jump line="11" column="24" filename="$USER_HOME$/repos/pytest-101/calculator.py" />
+      <jump line="29" column="62" filename="$USER_HOME$/repos/pytest-101/calculator.py" />
+      <jump line="26" column="0" filename="$USER_HOME$/repos/pytest-101/calculator.py" />
+      <jump line="5" column="356" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/tests/test_readmeio.py" />
+      <jump line="6" column="2" filename="$USER_HOME$/repos/linkedinlearning-pytest/test_checkout.py" />
+      <jump line="12" column="4" filename="$USER_HOME$/repos/linkedinlearning-pytest/test_checkout.py" />
+      <jump line="1" column="0" filename="$USER_HOME$/repos/linkedinlearning-pytest/test_checkout.py" />
+      <jump line="1" column="39" filename="$USER_HOME$/repos/linkedinlearning-pytest/checkout.py" />
+      <jump line="5" column="15" filename="$USER_HOME$/repos/linkedinlearning-pytest/checkout.py" />
+      <jump line="4" column="0" filename="$USER_HOME$/repos/linkedinlearning-pytest/test_checkout.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/repos/linkedinlearning-pytest/test_checkout.py" />
+      <jump line="5" column="0" filename="$USER_HOME$/repos/linkedinlearning-pytest/test_checkout.py" />
+      <jump line="45" column="20" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/readmeio.py" />
+      <jump line="46" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/readmeio.py" />
+      <jump line="221" column="4" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/readmeio.py" />
+      <jump line="9" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/readmeio.py" />
+      <jump line="220" column="7" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/readmeio.py" />
+      <jump line="11" column="70" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/readmeio.py" />
+      <jump line="10" column="6" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/readmeio.py" />
+      <jump line="200" column="14" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/readmeio.py" />
+      <jump line="141" column="4" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/readmeio.py" />
+      <jump line="156" column="12" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/readmeio.py" />
+      <jump line="17" column="0" filename="$USER_HOME$/repos/pytest-101/test_calculator.py" />
+      <jump line="143" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/readmeio.py" />
+      <jump line="1" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/readmeio.py" />
+      <jump line="62" column="0" filename="$USER_HOME$/repos/pytest-101/search_template_py.py" />
+      <jump line="6" column="0" filename="$USER_HOME$/repos/pytest-101/search_template_py.py" />
+      <jump line="95" column="0" filename="$USER_HOME$/repos/pytest-101/search_template_py.py" />
+      <jump line="33" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/tests/test_readmeio.py" />
+      <jump line="4" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/tests/test_readmeio.py" />
+      <jump line="13" column="9" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/tests/test_readmeio.py" />
+      <jump line="3" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/tests/test_readmeio.py" />
+      <jump line="82" column="4" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/tests/test_readmeio.py" />
+      <jump line="155" column="42" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/readmeio.py" />
+      <jump line="8" column="18" filename="$USER_HOME$/.virtualenvs/recommendations-api/lib/python3.7/site-packages/ruamel/yaml/__init__.py" />
+      <jump line="108" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/readmeio.py" />
+      <jump line="7" column="3" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/tests/test_readmeio.py" />
+      <jump line="152" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/readmeio.py" />
+      <jump line="36" column="5" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/tests/test_readmeio.py" />
+      <jump line="124" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/tests/test_readmeio.py" />
+      <jump line="15" column="3" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/readmeio.py" />
+      <jump line="123" column="13" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/tests/test_readmeio.py" />
+      <jump line="35" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/tests/test_readmeio.py" />
+      <jump line="171" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/readmeio.py" />
+      <jump line="73" column="87" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/tests/test_readmeio.py" />
+      <jump line="81" column="15" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/tests/test_readmeio.py" />
+      <jump line="286" column="16" filename="$USER_HOME$/repos/samba/recommendations-api/tests/live_tests/wsgi/rest/resources/test_endpoints.py" />
+      <jump line="24" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/tests/test_readmeio.py" />
+      <jump line="8" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/tests/test_readmeio.py" />
+      <jump line="45" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/tests/test_readmeio.py" />
+      <jump line="102" column="4" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/tests/test_readmeio.py" />
+      <jump line="74" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/tests/test_readmeio.py" />
+      <jump line="108" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/tests/test_readmeio.py" />
+      <jump line="77" column="10" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/tests/test_readmeio.py" />
+      <jump line="106" column="10" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/tests/test_readmeio.py" />
+      <jump line="49" column="9" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/tests/test_readmeio.py" />
+      <jump line="12" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/tests/test_readmeio.py" />
+      <jump line="2" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/tests/test_readmeio.py" />
+      <jump line="295" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/tests/live_tests/wsgi/rest/resources/test_endpoints.py" />
+      <jump line="61" column="22" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/tests/test_readmeio.py" />
+      <jump line="184" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/tests/live_tests/wsgi/rest/resources/test_endpoints.py" />
+      <jump line="120" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/tests/test_readmeio.py" />
+      <jump line="17" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/readmeio.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/tests/test_readmeio.py" />
+      <jump line="211" column="72" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/readmeio.py" />
+      <jump line="128" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/readmeio.py" />
+      <jump line="40" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/readmeio.py" />
+      <jump line="50" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/readmeio.py" />
+      <jump line="219" column="108" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/readmeio.py" />
+      <jump line="60" column="28" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/readmeio.py" />
+      <jump line="227" column="4" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/readmeio.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/repos/samba/recommendations-api/scripts/readmeio.py" />
+    </jumps>
+    <registers>
+      <register name="&quot;" type="4">
+        <text>)</text>
+      </register>
+      <register name="-" type="4">
+        <text>)</text>
+      </register>
+      <register name="/" type="4">
+        <text>main</text>
+      </register>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIHJldHVybiByZXF1ZXN0cy5yZXF1ZXN0KCdQT1NUJywgcmVhZG1laW9fdXJsLCBmaWxlcz1kaWN0KHN3YWdnZXI9eWFtbF90b191cGxvYWQpLCBhdXRoPShhcGlfa2V5LCAnJykpLnRleHQK</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="q" type="4">
+        <keys>
+          <key char="69" code="0" mods="0" />
+          <key char="69" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="65535" code="10" mods="0" />
+          <key char="113" code="0" mods="0" />
+          <key char="65535" code="8" mods="0" />
+          <key char="65535" code="27" mods="0" />
+        </keys>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIGZyb20gLi5yZWFkbWVpbyBpbXBvcnQgCg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIGltcG9ydCAuLnJlYWRtZWlvCg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIGZyb20gLi5zY3JpcHRzIGltcG9ydCByZWFkbWVpbwo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">IyBzdWNjZXNzZnVsIHJlYWRtZWlvLnVwZGF0ZSgpIC0+ICd7Il9pZCI6IjVkMjhlZDY1ZTc3YmQ3MDAyZGVlMDk4ZiIsInRpdGxlIjoidGVzdGluZ19jbGkifScK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Y29tYmluZV9vcGVuYXBpX3lhbWxzX3Rlc3RfY2FzZXMgPSBbCiAgICAoKCdodHRwczovL2FwaS5yZWNvbW1lbmRhdGlvbnMuc2FtYmEudHYvcG9wdWxhcml0eS9vcGVuYXBpJywpKSwKICAgICgoJ2h0dHBzOi8vYXBpLnJlY29tbWVuZGF0aW9ucy5zYW1iYS50di9hdWRpZW5jZV9zaW1pbGFyaXR5L29wZW5hcGkjL2F1ZGllbmNlX3NpbWlsYXJpdHkvZ2V0X2F1ZGllbmNlX3NpbWlsYXJpdHknLCkpLAogICAgKCgnaHR0cHM6Ly9hcGkucmVjb21tZW5kYXRpb25zLnNhbWJhLnR2L3BvcHVsYXJpdHkvb3BlbmFwaScsICdodHRwczovL2FwaS5yZWNvbW1lbmRhdGlvbnMuc2FtYmEudHYvYXVkaWVuY2Vfc2ltaWxhcml0eS9vcGVuYXBpIy9hdWRpZW5jZV9zaW1pbGFyaXR5L2dldF9hdWRpZW5jZV9zaW1pbGFyaXR5JykpCl0KCkBweXRlc3QubWFyay5za2lwCkBweXRlc3QubWFyay5wYXJhbWV0cml6ZSgndXJscycsIGNvbWJpbmVfb3BlbmFwaV95YW1sc190ZXN0X2Nhc2VzKQpkZWYgdGVzdF9jb21iaW5lX29wZW5hcGlfeWFtbHModXJscyk6CiAgICBmcm9tIHNjcmlwdHMgaW1wb3J0IHJlYWRtZWlvCgogICAgcmVzdWx0ID0gcmVhZG1laW8uX2NvbWJpbmVfb3BlbmFwaV95YW1scyh1cmxzKQogICAgYXNzZXJ0IFRydWUKCgo=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">IyBhbWVuZF9vcGVuYXBpX2RpY3RfdGVzdF9jYXNlcyA9IFsKIyAgICAgKG9wZW5hcGlfZGljdCwgJycsICcnLCAnJywgJycpLAojICAgICAob3BlbmFwaV9kaWN0LCAnMS4yLjMnLCAnJywgJycsICcnKSwKIyAgICAgKG9wZW5hcGlfZGljdCwgJycsICdteV90aXRsZScsICcnLCAnJyksCiMgICAgIChvcGVuYXBpX2RpY3QsICcnLCAnJywgJzQuNS42JywgJycpLAojICAgICAob3BlbmFwaV9kaWN0LCAnJywgJycsICcnLCAnaHR0cHM6Ly9teS1zZXJ2ZXItdXJsJyksCiMgICAgIChvcGVuYXBpX2RpY3QsICcxLjIuMycsICdteV90aXRsZScsICcnLCAnJyksCiMgICAgIChvcGVuYXBpX2RpY3QsICcxLjIuMycsICcnLCAnNC41LjYnLCAnJyksCiMgICAgIChvcGVuYXBpX2RpY3QsICcxLjIuMycsICcnLCAnJywgJ2h0dHBzOi8vbXktc2VydmVyLXVybCcpLAojICAgICAob3BlbmFwaV9kaWN0LCAnMS4yLjMnLCAnbXlfdGl0bGUnLCAnNC41LjYnLCAnJyksCiMgICAgIChvcGVuYXBpX2RpY3QsICcxLjIuMycsICdteV90aXRsZScsICcnLCAnaHR0cHM6Ly9teS1zZXJ2ZXItdXJsJyksCiMgICAgIChvcGVuYXBpX2RpY3QsICcxLjIuMycsICdteV90aXRsZScsICc0LjUuNicsICdodHRwczovL215LXNlcnZlci11cmwnKSwKIyAgICAgKG9wZW5hcGlfZGljdCwgJycsICdteV90aXRsZScsICc0LjUuNicsICcnKSwKIyAgICAgKG9wZW5hcGlfZGljdCwgJycsICdteV90aXRsZScsICcnLCAnaHR0cHM6Ly9teS1zZXJ2ZXItdXJsJyksCiMgICAgIChvcGVuYXBpX2RpY3QsICcnLCAnbXlfdGl0bGUnLCAnNC41LjYnLCAnaHR0cHM6Ly9teS1zZXJ2ZXItdXJsJyksCiMgICAgIChvcGVuYXBpX2RpY3QsICcnLCAnJywgJzQuNS42JywgJ2h0dHBzOi8vbXktc2VydmVyLXVybCcpLAojICAgICAob3BlbmFwaV9kaWN0LCAnMS4yLjMnLCAnbXlfdGl0bGUnLCAnNC41LjYnLCAnaHR0cHM6Ly9teS1zZXJ2ZXItdXJsJykKIyBdCg==</text>
+      </register>
+      <register name=":" type="4">
+        <text>sp readmeio.py</text>
+      </register>
+    </registers>
+    <search>
+      <last-search>main</last-search>
+      <last-offset />
+      <last-pattern>main</last-pattern>
+      <last-replace>divide</last-replace>
+      <last-substitute>multiply</last-substitute>
+      <last-dir>1</last-dir>
+      <show-last>true</show-last>
+    </search>
+    <history>
+      <history-search>
+        <entry>)</entry>
+        <entry>end</entry>
+        <entry>(</entry>
+        <entry>swagger</entry>
+        <entry>tuple</entry>
+        <entry>***</entry>
+        <entry>subtract</entry>
+        <entry>multiply</entry>
+        <entry>weird</entry>
+        <entry>numbers</entry>
+        <entry encoding="base64">XDxDYW5cPg==</entry>
+        <entry>get_open</entry>
+        <entry encoding="base64">XDxPcGVuQXBpUGFyc2VFcnJvclw+</entry>
+        <entry encoding="base64">XDxfYXBwZW5kX2RpY3RfdW5pcXVlX2tleXNcPg==</entry>
+        <entry>get_openapi_spec</entry>
+        <entry>CommentedMap</entry>
+        <entry>scripts</entry>
+        <entry>main</entry>
+      </history-search>
+      <history-cmd>
+        <entry>zo</entry>
+        <entry>source ~/.ideavimrc</entry>
+        <entry>s/***/action/g</entry>
+        <entry>%s/***/action</entry>
+        <entry encoding="base64">JzwsJz5zL3N1YnRyYWN0L211bHRpcGx5</entry>
+        <entry encoding="base64">JzwsJz5zL211bHRpcGx5L2RpdmlkZQ==</entry>
+        <entry>nohls</entry>
+        <entry>reg</entry>
+        <entry>sp .</entry>
+        <entry>sp readmeio.py</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed O</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed R</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed D</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed I</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed E</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed B</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+    <editor>
+      <key-repeat enabled="true" />
+    </editor>
+  </component>
+</application>
