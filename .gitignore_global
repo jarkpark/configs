@@ -33,7 +33,7 @@
 # Logs and databases #
 ######################
 *.log
-*.sql
+#*.sql <- commented out because found use of this in projects
 *.sqlite
 
 # OS generated files #
