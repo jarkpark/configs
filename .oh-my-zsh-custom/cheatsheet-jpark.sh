@@ -236,6 +236,9 @@ git fetch [<aliasOfRemoteRepo>]
 # Pull Changes from Remote Repository:
 git pull [<aliasOfRemoteRepo>]
 
+# See Why a File is Being Ignored:
+git check-ignore -v <pathToFile>
+
 # **************************************** /Git ****************************************
 ====================================================================================================
 # **************************************** Kubernetes ****************************************
