@@ -1,0 +1,9 @@
+[user]
+	name = James Park
+	email = james.park@samba.tv
+[credential]
+	helper = osxkeychain
+[core]
+	excludesFile = /Users/james.park/.gitignore_global
+[commit]
+	template = /Users/james.park/.gitcommit_template
