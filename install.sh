@@ -104,6 +104,7 @@ ln -Fsv ~/repos/dotfiles/.zshrc ~/.zshrc
 ln -Fsv ~/repos/dotfiles/.gitconfig ~/.gitconfig
 ln -Fsv ~/repos/dotfiles/.gitignore_global ~/.gitignore_global
 ln -Fsv ~/repos/dotfiles/.gitcommit_template ~/.gitcommit_template
+ln -Fsv ~/repos/dotfiles/.vim ~/.vim
 
 # TODO: application preferences
 # iTerm2, PyCharm

@@ -1,0 +1,96 @@
+""" Filetype Awareness:
+" Detect filetype and run $VIMRUNTIME/(filetype.vim + indent.vim + ftplugin.vim)
+filetype plugin indent on
+
+" Show syntax for detected filetype
+syntax enable
+
+" Override $VIMRUNTIME/indent/yaml.vim with tab=2 spaces
+autocmd FileType yaml,yml setlocal shiftwidth=2 softtabstop=2 expandtab
+
+
+""" Editor Behavior:
+" Take indent for new line from previous line
+set autoindent
+
+" In Insert Mode, allow backspace over autoindent, line breaks, start of insert
+set backspace=indent,eol,start
+
+" Use 'shiftwidth' when inserting <Tab>
+set smarttab
+
+" ctrl+a and ctrl+x won't treat numbers that start with 0 as octals
+set nrformats-=octal
+
+" Automatically read file when changed outside of vim
+set autoread
+
+" Number of commands that are remembered
+set history=1000
+
+" Maximum number of tab pages for |-p| and "tab all"
+set tabpagemax=50
+
+" Enable code folding
+set foldenable
+
+" Set 'foldlevel' to 10 on start of editing a buffer
+set foldlevelstart=10
+
+" Maximum fold depth
+set foldnestmax=10
+
+" Lines of equal indent form a fold.
+set foldmethod=indent
+
+" Don't move cursor to the first nonblank of line when doing screen movements
+set nostartofline
+
+" Number of lines to use for the command-line
+set cmdheight=2
+
+" Number of spaces to use for autoindent 
+set shiftwidth=4
+
+" Number of spaces that a <Tab> counts for while editing
+set softtabstop=4
+
+" Use spaces when <Tab> is inserted
+set expandtab
+
+
+""" Searching:
+" Highlight match while typing search pattern
+set incsearch
+
+" Highlight matches with last search pattern
+set hlsearch
+
+" Ignore case in search patterns
+set ignorecase
+
+" Set noignorecase when search pattern has uppercase
+set smartcase
+
+
+""" Appearance:
+" Last window status mode (2=always show status line)
+set laststatus=2
+
+" Show cursor line and column in the status line
+set ruler
+
+" Use menu for command line completion
+set wildmenu
+
+" Show as much of the last line as possible (that doesn't fit on screen)
+set display+=lastline
+
+" Print the line number in front of each line
+set number
+
+" Show relative line number in front of each line
+set relativenumber
+
+" Minimum number of lines above and below cursor
+set scrolloff=2
