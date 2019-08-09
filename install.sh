@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # install homebrew
 echo "Checking if Homebrew is installed..."
@@ -33,8 +33,10 @@ fi
 
 # install homebrew formulae
 formulae=(
+    ack
     awscli
     git
+    go
     kubernetes-cli
     postgresql
     python
@@ -106,6 +108,9 @@ ln -Fsv ~/repos/dotfiles/.gitignore_global ~/.gitignore_global
 ln -Fsv ~/repos/dotfiles/.gitcommit_template ~/.gitcommit_template
 ln -Fsv ~/repos/dotfiles/.vim ~/.vim
 
+# system preferences
+source ~/repos/dotfiles/system_prefs.sh
+
 # TODO: application preferences
 # iTerm2, PyCharm
-
+echo "Don't forget to point iTerm2 and PyCharm to respective preferences path/repos!"
