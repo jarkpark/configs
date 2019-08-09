@@ -1,20 +1,27 @@
 # Custom Functions
 # Author: James Park
 
-# Function toggle wifi off and on
-togglewifi () {
-	WIFIPORT=$(networksetup -listallhardwareports | grep -A 1 Wi-Fi | tail -n 1 | awk '{print $2}')
-	echo "Wi-Fi adapter port number: $WIFIPORT"
-	networksetup -setairportpower $WIFIPORT off
-	networksetup -setairportpower $WIFIPORT on
-	echo "Toggled off then on!"
+### My own functions:
+# Function to find a file by name:
+f () {
+    find ~ -path ~/Pictures/Photos\ Library.photoslibrary -prune -o \
+        -path ~/Library/Application\ Support -prune -o \
+        -path ~/Library/IdentityServices -prune -o \
+        -path ~/Library/Messages -prune -o \
+        -path ~/Library/HomeKit -prune -o \
+        -path ~/Library/Mail -prune -o \
+        -path ~/Library/Safari -prune -o \
+        -path ~/Library/Suggestions -prune -o \
+        -path ~/Library/Containers -prune -o \
+        -path ~/Library/PersonalizationPortrait -prune -o \
+        -path ~/Library/Metadata -prune -o \
+        -path ~/Library/Cookies -prune -o \
+        -path ~/Library/Caches -prune -o \
+        -iname "*$@*" -print
 }
 
-# Function to open current git repo in the browser
-# git@bitbucket.org:sambatv/recommendations-api.git
-# https://bitbucket.org/sambatv/recommendations-api/
-# git@github.com:jarkpark/dotfiles.git
-# https://github.com/jarkpark/dotfiles
+
+# Function to open current git repo in the browser:
 gi () {
     giturl=$(git config --get remote.origin.url)
     if [ -z "$giturl" ]
@@ -28,7 +35,20 @@ gi () {
     open $giturl
 }
 
-# Zsh hook functions
+
+# Function to toggle wifi off and back on:
+togglewifi () {
+	WIFIPORT=$(networksetup -listallhardwareports | grep -A 1 Wi-Fi | tail -n 1 | awk '{print $2}')
+	echo "Wi-Fi adapter port number: $WIFIPORT"
+	networksetup -setairportpower $WIFIPORT off
+	networksetup -setairportpower $WIFIPORT on
+	echo "Toggled off then on!"
+}
+
+
+
+### Zsh hook functions:
+# Function to run immediately after a 'cd':
 function chpwd() {
     ls -lah
 }
