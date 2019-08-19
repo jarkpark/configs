@@ -2,7 +2,7 @@
 " Detect filetype and run $VIMRUNTIME/(filetype.vim + indent.vim + ftplugin.vim)
 filetype plugin indent on
 
-" Show syntax for detected filetype
+" Show syntax highlighting for detected filetype
 syntax enable
 
 " Override $VIMRUNTIME/indent/yaml.vim with tab=2 spaces
@@ -47,7 +47,7 @@ set foldmethod=indent
 set nostartofline
 
 " Number of lines to use for the command-line
-set cmdheight=2
+"set cmdheight=2
 
 " Number of spaces to use for autoindent 
 set shiftwidth=4
