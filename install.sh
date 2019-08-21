@@ -40,6 +40,7 @@ formulae=(
     kubernetes-cli
     postgresql
     python
+    q
     tree
     vim
     zsh
@@ -69,7 +70,6 @@ cask_formulae=(
     google-chrome
     iterm2
     jetbrains-toolbox
-    lunar
     minikube
     spectacle
     spotify
