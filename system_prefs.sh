@@ -16,6 +16,9 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ##################################################
 # General
 ##################################################
+# Show scroll bars: Always
+defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
+
 # TODO: Default web browser
 
 
