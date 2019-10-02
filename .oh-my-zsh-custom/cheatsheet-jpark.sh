@@ -239,6 +239,12 @@ git pull [<aliasOfRemoteRepo>]
 # See Why a File is Being Ignored:
 git check-ignore -v <pathToFile>
 
+# Rebase current branch onto tip of another branch:
+git rebase <branchToRebaseOnto>
+
+# Squash commits:
+git rebase -i [HEAD~#|commitSHA]
+
 # **************************************** /Git ****************************************
 ====================================================================================================
 # **************************************** Kubernetes ****************************************
