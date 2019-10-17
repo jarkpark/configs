@@ -67,6 +67,7 @@ done
 # TODO: add any Applications that exist as casks
 cask_formulae=(
     docker
+    font-fira-code
     google-chrome
     iterm2
     jetbrains-toolbox
