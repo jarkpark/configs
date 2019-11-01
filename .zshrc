@@ -68,7 +68,7 @@ ZSH_CUSTOM=~/repos/dotfiles/.oh-my-zsh-custom/
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git docker kubectl minikube vi-mode)
+plugins=(git docker docker-machine kubectl minikube)
 
 source $ZSH/oh-my-zsh.sh
 

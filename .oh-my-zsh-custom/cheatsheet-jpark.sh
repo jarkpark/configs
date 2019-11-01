@@ -1,4 +1,4 @@
-#	**************************************** Docker ****************************************
+#**************************************** Docker ****************************************
 
 # List Images:
 docker images [OPTIONS]
@@ -78,6 +78,52 @@ docker load -i <fileName.tar.gz>
 docker inspect <imageOrContainer> [<imageOrContainer2> <imageOrContainer3> ...]
 
 # **************************************** /Docker ****************************************
+====================================================================================================
+# **************************************** Docker Machine ****************************************
+
+# List Available Machines
+docker-machine ls
+
+# Create a Machine
+docker-machine create --driver <driver i.e. virtualbox> <machineName>
+
+# Get Environment Variables for a Machine/VM
+docker-machine env <machineName>
+
+# Connect Current Shell to a Machine
+eval $(docker-machine env <machineName>)
+
+# Get Machine IP
+docker-machine ip <machineName>
+
+# Start/stop a Machine
+docker-machine <start | stop> <machineName>
+
+# Check Which Machine the Shell is Connected To
+env | grep DOCKER
+
+# Show Unset/Disconnect Command for Current Machine
+docker-machine env -u
+
+# Unset all DOCKER env variables
+eval $(docker-machine env -u)
+
+# If machineName == default, no need to supply <machineName> to:
+docker-machine config
+docker-machine env
+docker-machine inspect
+docker-machine ip
+docker-machine kill
+docker-machine provision
+docker-machine regenerate-certs
+docker-machine restart
+docker-machine ssh
+docker-machine start
+docker-machine stop
+docker-machine upgrade
+docker-machine url
+
+# **************************************** /Docker Machine ****************************************
 ====================================================================================================
 # **************************************** Git ****************************************
 
