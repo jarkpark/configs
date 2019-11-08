@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
+echo "Beginning macOS settings configuration..."
+
 ##################################################
-# System Preferences
+# Begin System Preferences Configuration
 ##################################################
 # Close System Preferences to prevent overriding settings we're about to change
 osascript -e 'tell application "System Preferences" to quit'
@@ -19,13 +21,13 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # Show scroll bars: Always
 defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
 
-# TODO: Default web browser
+# Default web browser: set when opening Chrome
+echo "Manually set default browser when opening Chrome!"
 
 
 ##################################################
 # Desktop & Screen Saver
 ##################################################
-# TODO: Screen Saver > Star after: 10 Minutes
 # Hot Corners > Bottom Left = Put Display to Sleep
 defaults write com.apple.dock wvous-bl-corner -int 10
 defaults write com.apple.dock wvous-bl-modifier -int 0
@@ -69,36 +71,40 @@ defaults write com.apple.dock expose-group-apps -bool true
 ##################################################
 # Security & Privacy
 ##################################################
-# TODO: Require password immediately, Allow apps downloaded from identified developers
-# General > Require password 'immediately' after sleep or screen saver begins (NEED TO VERIFY THIS!)
-defaults write com.apple.screensaver askForPassword -int 1
-defaults write com.apple.screensaver askForPasswordDelay -int 0
+echo "Manually set System Preferences > Security & Privacy!"
+
 
 ##################################################
 # Display
 ##################################################
-# TODO: True Tone (true), Night Shift > Schedule and color temp
+# True Tone (true), Night Shift > Schedule and color temp
+echo "Manually set System Preferences > Displays > Night Shift (and True Tone)"
 
 
 ##################################################
-# Energy Saver
+# Energy
 ##################################################
-# TODO: Battery > Enable power nap
+# Show Battery Percentage in Menu Bar
+defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 
 
 ##################################################
 # Keyboard
 ##################################################
 # Keyboard > Key Repeat
-defaults write NSGlobalDomain KeyRepeat 2
+defaults write NSGlobalDomain KeyRepeat -int 2
 
 # Keyboard > Delay Until Repeat
-defaults write NSGlobalDomain InitialKeyRepeat 15
+defaults write NSGlobalDomain InitialKeyRepeat -int 15
 
 # Keyboard > Touch Bar shows
-defaults write com.apple.touchbar.agent -string "fullControlStrip"
+# TODO: uncomment me for touchbar enabled macs!
+#defaults write com.apple.touchbar.agent -string "fullControlStrip"
 
-# Text > Replace With Dictionary
+# Keyboard > Modifier Keys...
+echo "Manually set System Preferences > Keyboard > Modifier Keys > Caps Lock -> Control (and other Modifier Keys)!"
+
+# Text > Replace With Dictionary (clears by writing empty array)
 defaults write NSGlobalDomain NSUserDictionaryReplacementItems -array
 
 # Text > Correct spelling automatically
@@ -112,17 +118,21 @@ defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
 defaults write NSGlobalDomain NSAutomaticPeriodSubstitutionEnabled -bool false
 
 # Text > Touch Bar typing suggestions
-defaults write NSGlobalDomain NSAutomaticTextCompletionEnabled -bool false
+# TODO: uncomment me for touchbar enabled macs!
+#defaults write NSGlobalDomain NSAutomaticTextCompletionEnabled -bool false
 
 # Text > Use smart quotes and dashes
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 
+# Shortcuts > Full Keyboard Access (Tab between modal buttons)
+defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
+
 
 ##################################################
 # Trackpad
 ##################################################
-# Point & Click > Click
+# Point & Click > Click (Light force)
 defaults write com.apple.AppleMultitouchTrackpad FirstClickThreshold -int 0
 defaults write com.apple.AppleMultitouchTrackpad SecondClickThreshold -int 0
 
@@ -131,34 +141,81 @@ defaults write com.apple.dock showAppExposeGestureEnabled -bool true
 
 
 ##################################################
+# Sound
+##################################################
+# Sound Effects > Show volume in menu bar
+defaults write com.apple.systemuiserver "NSStatusItem Visible com.apple.menuextra.volume" -int 1
+defaults write com.apple.systemuiserver menuExtras -array-add "/System/Library/CoreServices/Menu Extras/Volume.menu"
+
+
+##################################################
 # Date & Time
 ##################################################
-Clock > Show date
+# Clock > Show date
 defaults write com.apple.menuextra.clock DateFormat -string "EEE MMM d  h:mm a"
 defaults write com.apple.menuextra.clock FlashDateSeparators -bool false
 defaults write com.apple.menuextra.clock IsAnalog -bool false
+##################################################
+# End System Preferences Configuration
+##################################################
 
 
 ##################################################
 # Finder
 ##################################################
-# General > Show these items on the desktop
+# Preferences > General > Show these items on the desktop
 defaults write com.apple.finder ShowHardDrivesOnDesktop -bool false
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
 defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
+
+# Preferences > General > New Finder windows show: Applications
+defaults write com.apple.finder NewWindowTarget -string "PfLo"
+defaults write com.apple.finder NewWindowTargetPath -string "file:///Applications/"
+
+# Preferences > Sidebar
+echo "Manually set Finder > Preferences > Sidebar!"
+
+# Preferences > Advanced > Show all filename extensions
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+
+# Preferences > Advanced > When performing a search: Search the Current Folder
+defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
+
+# View > as List for all Finder windows by default
+echo "Manually set Finder > View > as List!"
 
 # View > Show Status Bar
 defaults write com.apple.finder ShowStatusBar -bool true
 
 # View > Show Path Bar
-defaults write com.apple.finder ShowPathbar -bool true
+# commented out because POSIX path is enabled below
+#defaults write com.apple.finder ShowPathbar -bool true
+
+# Display full POSIX path as Finder window title
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 
 
 ##################################################
-# Post-Setup Steps
+# Messages
+##################################################
+# Edit > Substitutions > Text Replacement > Emoji
+defaults write $HOME/Library/Containers/com.apple.soagent/Data/Library/Preferences/com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "automaticEmojiSubstitutionEnabledLegacy" -bool false
+defaults write $HOME/Library/Containers/com.apple.soagent/Data/Library/Preferences/com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "automaticEmojiSubstitutionEnablediMessage" -bool false
+
+# Edit > Substitutions > Smart Quotes
+defaults write $HOME/Library/Containers/com.apple.soagent/Data/Library/Preferences/com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "automaticQuoteSubstitutionEnabled" -bool false
+
+# Edit > Spelling and Grammar > Correct Spelling Automatically
+defaults write $HOME/Library/Containers/com.apple.soagent/Data/Library/Preferences/com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "automaticSpellingCorrectionEnabled" -bool false
+
+
+##################################################
+# Post-Configuration Steps
 ##################################################
 killall cfprefsd
 killall Dock
 killall Finder
+killall Messages
 killall SystemUIServer
 
+echo "Done configuring macOS settings. Restart machine."

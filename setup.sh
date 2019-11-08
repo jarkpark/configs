@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo "Beginning machine setup..."
+
 # install homebrew
 echo "Checking if Homebrew is installed..."
 which brew 2>&1 > /dev/null
@@ -64,14 +66,17 @@ do
 done
 
 # install homebrew cask formulae
+# TODO: add any cask taps necessary
+brew tap homebrew/cask-fonts    # for font-fira-code
+
 # TODO: add any Applications that exist as casks
 cask_formulae=(
     docker
     font-fira-code
+    google-backup-and-sync 
     google-chrome
     iterm2
     jetbrains-toolbox
-    minikube
     spectacle
     spotify
     virtualbox
@@ -109,8 +114,8 @@ ln -Fsv ~/repos/dotfiles/.gitignore_global ~/.gitignore_global
 ln -Fsv ~/repos/dotfiles/.gitcommit_template ~/.gitcommit_template
 ln -Fsv ~/repos/dotfiles/.vim ~/.vim
 
-# system preferences
-source ~/repos/dotfiles/system_prefs.sh
+# configure macos settings
+source ~/repos/dotfiles/macos_settings.sh
 
 # TODO: application preferences
 # iTerm2, PyCharm
