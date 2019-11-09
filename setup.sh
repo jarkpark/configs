@@ -70,6 +70,7 @@ done
 brew tap homebrew/cask-fonts    # for font-fira-code
 
 # TODO: add any Applications that exist as casks
+# virtualbox causes issues due to having to allow installer in Security & Privacy settings
 cask_formulae=(
     docker
     font-fira-code
@@ -79,7 +80,6 @@ cask_formulae=(
     jetbrains-toolbox
     spectacle
     spotify
-    virtualbox
 )
 brew_cask_list=","$(brew cask list | tr "\n" ",")
 echo "Installing brew cask formulae..."
