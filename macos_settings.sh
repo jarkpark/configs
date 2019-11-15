@@ -128,6 +128,8 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 # Shortcuts > Full Keyboard Access (Tab between modal buttons)
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
+# Enable Press & Hold for Key Repeat (Disable accents popup)
+defaults write -g ApplePressAndHoldEnabled -bool false
 
 ##################################################
 # Trackpad
