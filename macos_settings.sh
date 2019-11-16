@@ -128,6 +128,9 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 # Shortcuts > Full Keyboard Access (Tab between modal buttons)
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
+# Shortcuts > Services
+echo "Manually uncheck System Preferences > Keyboard > Shortcuts > Services > Search man Page Index in Terminal!"
+
 # Enable Press & Hold for Key Repeat (Disable accents popup)
 defaults write -g ApplePressAndHoldEnabled -bool false
 
