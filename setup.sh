@@ -113,6 +113,7 @@ ln -Fsv ~/repos/dotfiles/.gitconfig ~/.gitconfig
 ln -Fsv ~/repos/dotfiles/.gitignore_global ~/.gitignore_global
 ln -Fsv ~/repos/dotfiles/.gitcommit_template ~/.gitcommit_template
 ln -Fsv ~/repos/dotfiles/.vim ~/.vim
+ln -Fsv ~/repos/dotfiles/.vim/vimrc ~/.ideavimrc
 
 # configure macos settings
 source ~/repos/dotfiles/macos_settings.sh
