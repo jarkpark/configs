@@ -34,6 +34,9 @@ if [[ $? != 0 ]]; then
 fi
 
 # install homebrew formulae
+# TODO: add any taps necessary
+brew tap teamookla/speedtest    # for speedtest
+
 formulae=(
     ack
     awscli
@@ -43,6 +46,7 @@ formulae=(
     postgresql
     python
     q
+    speedtest
     tree
     vim
     zsh
