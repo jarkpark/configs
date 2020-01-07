@@ -204,14 +204,14 @@ defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 # Messages
 ##################################################
 # Edit > Substitutions > Text Replacement > Emoji
-defaults write $HOME/Library/Containers/com.apple.soagent/Data/Library/Preferences/com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "automaticEmojiSubstitutionEnabledLegacy" -bool false
-defaults write $HOME/Library/Containers/com.apple.soagent/Data/Library/Preferences/com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "automaticEmojiSubstitutionEnablediMessage" -bool false
+defaults write com.apple.iChat.inputLine inputLineSettingsKey -dict-add "automaticEmojiSubstitutionEnabled" -bool false
+defaults write com.apple.iChat.inputLine inputLineSettingsKey -dict-add "automaticTextReplacementEnabled" -bool false
 
 # Edit > Substitutions > Smart Quotes
-defaults write $HOME/Library/Containers/com.apple.soagent/Data/Library/Preferences/com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "automaticQuoteSubstitutionEnabled" -bool false
+defaults write com.apple.iChat.inputLine inputLineSettingsKey -dict-add "automaticQuoteSubstitutionEnabled" -bool false
 
 # Edit > Spelling and Grammar > Correct Spelling Automatically
-defaults write $HOME/Library/Containers/com.apple.soagent/Data/Library/Preferences/com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "automaticSpellingCorrectionEnabled" -bool false
+defaults write com.apple.iChat.inputLine inputLineSettingsKey -dict-add "automaticSpellingCorrectionEnabled" -bool false
 
 
 ##################################################
