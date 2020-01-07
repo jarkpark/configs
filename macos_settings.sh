@@ -166,6 +166,13 @@ defaults write com.apple.menuextra.clock IsAnalog -bool false
 
 
 ##################################################
+# Contacts
+##################################################
+# Preferences > General > Prefer nicknames
+echo "Manually set Contacts > Preferences > General > Prefer nicknames"
+
+
+##################################################
 # Finder
 ##################################################
 # Preferences > General > Show these items on the desktop

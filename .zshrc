@@ -75,6 +75,9 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
+export DEFAULT_JAVA_VERSION="11"
+export JAVA_HOME="$(/usr/libexec/java_home -v ${DEFAULT_JAVA_VERSION})"
+export JAVA11_HOME="$(/usr/libexec/java_home -v 11)"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8

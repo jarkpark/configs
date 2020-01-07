@@ -43,9 +43,12 @@ formulae=(
     git
     go
     kubernetes-cli
+    maven
+    node
     postgresql
     python
     q
+    sbt
     speedtest
     tree
     vim
