@@ -82,6 +82,7 @@ cask_formulae=(
     google-chrome
     iterm2
     jetbrains-toolbox
+    postman
     spectacle
     spotify
 )
