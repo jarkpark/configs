@@ -40,8 +40,10 @@ brew tap teamookla/speedtest    # for speedtest
 formulae=(
     ack
     awscli
+    exercism
     git
     go
+    gradle
     kubernetes-cli
     maven
     node

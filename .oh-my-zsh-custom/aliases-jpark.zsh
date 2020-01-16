@@ -1,6 +1,7 @@
 # Custom Aliases
 # Author: James Park
 
+alias dc="docker-compose"
 alias dr="docker"
 alias dm="docker-machine"
 
