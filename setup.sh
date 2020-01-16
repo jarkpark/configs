@@ -119,7 +119,11 @@ sudo chsh -s $(which zsh) $USER
 
 # symlinks
 ln -Fsv ~/repos/dotfiles/.zshrc ~/.zshrc
-ln -Fsv ~/repos/dotfiles/.gitconfig ~/.gitconfig
+if [ -f ~/repos/dotfiles_work/.gitconfig ]; then
+    ln -Fsv ~/repos/dotfiles_work/.gitconfig ~/.gitconfig
+else
+    ln -Fsv ~/repos/dotfiles/.gitconfig ~/.gitconfig
+fi
 ln -Fsv ~/repos/dotfiles/.gitignore_global ~/.gitignore_global
 ln -Fsv ~/repos/dotfiles/.gitcommit_template ~/.gitcommit_template
 ln -Fsv ~/repos/dotfiles/.vim ~/.vim

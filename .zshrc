@@ -75,9 +75,6 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
-export DEFAULT_JAVA_VERSION="11"
-export JAVA_HOME="$(/usr/libexec/java_home -v ${DEFAULT_JAVA_VERSION})"
-export JAVA11_HOME="$(/usr/libexec/java_home -v 11)"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -100,3 +97,7 @@ export JAVA11_HOME="$(/usr/libexec/java_home -v 11)"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+if [ -f ~/repos/dotfiles_work/.zshrc ]; then
+    source ~/repos/dotfiles_work/.zshrc
+fi
