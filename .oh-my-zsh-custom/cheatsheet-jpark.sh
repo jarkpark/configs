@@ -331,15 +331,18 @@ kubectl get <resourceType> [<resource>] [OPTIONS]
 	-o yaml|json|wide = show resource yaml or json manifest or additional columns
 
 # Show All Resources:
-kubectl get --all
+kubectl get all
 
 # Show Details of One or Many Resources:
 kubectl describe <resourceType> [<resource>]
 
 # Run AdHoc Unmanaged Pod, Optionally RC:
-kubectl run [<replicationController>] --image=<repo/name> [OPTIONS]
-	--port=<containerPort> = port that the container listens on
+kubectl run [<replicationController>] --image=<repo/name> [OPTIONS] <nameOfPod> -- <commandToRun>
+        -it = keep STDIN open + allocate pseudo tty aka. interactive terminal/shell
 	--generator=run/v1 = this is required when not creating a deployment
+	--port=<containerPort> = port that the container listens on
+        --restart=Never = don't restart pod when exit/fail, ensures a deployment is not created
+        --rm = remove after exit (must exit cleanly)
 
 # Expose a Resource as a Service:
 kubectl expose <resourceType> <resource> --type=<serviceType> --name=<serviceName>
