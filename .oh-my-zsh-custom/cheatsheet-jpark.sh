@@ -381,6 +381,9 @@ kubectl delete <resourceType> <resource> [OPTIONS]
 # Execute Command in a Container:
 kubectl exec <pod> [-c <container>] -- <command>
 
+# Run ad-hoc Pod for nslookup:
+kubectl run -it --rm --restart=Never --image=tutum/dnsutils jpdnsutils -- sh
+
 # **************************************** /Kubernetes ****************************************
 ====================================================================================================
 # **************************************** Python ****************************************
