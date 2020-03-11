@@ -87,9 +87,10 @@ cask_formulae=(
     google-chrome
     iterm2
     jetbrains-toolbox
-    postman
+    #postman
     spectacle
     spotify
+    #zoomus
 )
 brew_cask_list=","$(brew cask list | tr "\n" ",")
 echo "Installing brew cask formulae..."
