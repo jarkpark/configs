@@ -301,6 +301,19 @@ git rebase <branchToRebaseOnto>
 # Squash commits:
 git rebase -i [HEAD~#|commitSHA]
 
+# Point a subdirectory to a git repo:
+git submodule set-branch --branch <branch> -- <pathToDirectoryForSubGitRepo>
+
+# Point submodule to its default branch (usually Master):
+git submodule set-branch --default -- <pathToDirectoryForSubGitRepo>
+
+# Point submodule to HEAD at the time it was committed to current repo:
+git submodule update
+
+# Point submodule to current tip of its git repo:
+git submodule update --remote
+
+
 # **************************************** /Git ****************************************
 ====================================================================================================
 # **************************************** Kubernetes ****************************************
