@@ -51,6 +51,7 @@ formulae=(
     python
     q
     sbt
+    sops
     speedtest
     tree
     vim
