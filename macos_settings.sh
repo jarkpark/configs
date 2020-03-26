@@ -72,6 +72,7 @@ defaults write com.apple.dock expose-group-apps -bool true
 # Security & Privacy
 ##################################################
 echo "Manually set System Preferences > Security & Privacy!"
+echo "**Security & Privacy -> Privacy -> Full Disk Access + iTerm"
 
 
 ##################################################
