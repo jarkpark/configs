@@ -2,8 +2,9 @@
 # Author: James Park
 
 alias dc="docker-compose"
-alias dr="docker"
+alias dcr="docker-compose down -v && docker-compose up -d"
 alias dm="docker-machine"
+alias dr="docker"
 
 if [[ -f $ZSH_CUSTOM/cheatsheet-jpark.sh ]]; then
 	alias hh="less $ZSH_CUSTOM/cheatsheet-jpark.sh"
