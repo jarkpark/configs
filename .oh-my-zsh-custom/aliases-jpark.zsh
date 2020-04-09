@@ -2,7 +2,9 @@
 # Author: James Park
 
 alias dc="docker-compose"
-alias dcr="docker-compose down -v && docker-compose up -d"
+alias dcd="docker-compose down -v"
+alias dcu="docker-compose up -d"
+alias dcdu="docker-compose down -v && docker-compose up -d"
 alias dm="docker-machine"
 alias dr="docker"
 
