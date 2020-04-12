@@ -20,6 +20,11 @@ f () {
         -iname "*$@*" -print
 }
 
+fun () {
+    print -l ${(ok)functions}
+}
+
+
 # Opens current git repo in the browser:
 gi () {
     giturl=$(git config --get remote.origin.url)
