@@ -101,3 +101,7 @@ source $ZSH/oh-my-zsh.sh
 if [ -f ~/repos/dotfiles_work/.zshrc ]; then
     source ~/repos/dotfiles_work/.zshrc
 fi
+
+bindkey '^U' backward-kill-line
+bindkey '^F' forward-word
+bindkey '^Z' redo
