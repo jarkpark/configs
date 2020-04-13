@@ -106,3 +106,4 @@ bindkey '^U' backward-kill-line
 bindkey '^F' forward-word
 bindkey '^Z' redo
 bindkey '^ ' autosuggest-accept
+bindkey '\e\e' autosuggest-clear
