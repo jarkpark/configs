@@ -2083,7 +2083,7 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>2572 2195 620 392 2162 587 1440 2537 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1792 1120 0 0 1792 1097 </string>
+	<string>0 645 745 452 0 0 1792 1097 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -2723,6 +2723,18 @@
 			<true/>
 			<key>ASCII Ligatures</key>
 			<true/>
+			<key>AWDS Pane Directory</key>
+			<string></string>
+			<key>AWDS Pane Option</key>
+			<string>Recycle</string>
+			<key>AWDS Tab Directory</key>
+			<string></string>
+			<key>AWDS Tab Option</key>
+			<string>No</string>
+			<key>AWDS Window Directory</key>
+			<string></string>
+			<key>AWDS Window Option</key>
+			<string>No</string>
 			<key>Ambiguous Double Width</key>
 			<false/>
 			<key>Ansi 0 Color</key>
@@ -3040,7 +3052,7 @@
 			<key>Custom Command</key>
 			<string>No</string>
 			<key>Custom Directory</key>
-			<string>No</string>
+			<string>Advanced</string>
 			<key>Default Bookmark</key>
 			<string>No</string>
 			<key>Description</key>
@@ -3651,6 +3663,11 @@
 		<string>3.3.8</string>
 		<string>3.3.9</string>
 	</array>
+	<key>NoSyncBFPRecents</key>
+	<array>
+		<string>Monaco</string>
+		<string>Fira Code</string>
+	</array>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
@@ -3661,7 +3678,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>BCAE6443-5FE1-40E1-8B47-919A061BCCBE</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>27</integer>
+	<integer>31</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>600646250.19764197</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
@@ -4448,7 +4465,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-04-12T19:40:52Z</date>
+	<date>2020-04-20T19:41:05Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
