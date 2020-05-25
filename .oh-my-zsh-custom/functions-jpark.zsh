@@ -40,7 +40,7 @@ gi () {
 }
 
 # Resets mac background system applications:
-rs () {
+rsmac () {
     killall cfprefsd
     killall Dock
     killall Finder
@@ -48,7 +48,7 @@ rs () {
 }
 
 # Toggles wifi off and back on:
-rw () {
+rswifi () {
     WIFIPORT=$(networksetup -listallhardwareports | grep -A 1 Wi-Fi | tail -n 1 | awk '{print $2}')
     echo "Wi-Fi adapter port number: $WIFIPORT"
     networksetup -setairportpower $WIFIPORT off
