@@ -41,6 +41,8 @@ formulae=(
     ack
     awscli
     exercism
+    fasd
+    fzf
     git
     go
     gradle
@@ -118,6 +120,7 @@ sh install.sh --unattended
 
 # set brew version of zsh as default shell
 sudo chsh -s $(which zsh) $USER
+echo "Verify default shell was set to /usr/local/bin/zsh!"
 
 # symlinks
 ln -Fsv ~/repos/dotfiles/.zshrc ~/.zshrc
@@ -135,5 +138,5 @@ ln -Fsv ~/repos/dotfiles/.vim/vimrc ~/.ideavimrc
 source ~/repos/dotfiles/macos_settings.sh
 
 # TODO: application preferences
-# iTerm2, PyCharm
-echo "Don't forget to point iTerm2 and PyCharm to respective preferences path/repos!"
+# iTerm2, PyCharm, IntelliJ
+echo "Don't forget to point iTerm2, PyCharm, IntelliJ to respective preferences path/repos!"

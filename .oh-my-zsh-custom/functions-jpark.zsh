@@ -2,24 +2,6 @@
 # Author: James Park
 
 ### My own functions:
-# Finds a file by name:
-f () {
-    find ~ -path ~/Pictures/Photos\ Library.photoslibrary -prune -o \
-        -path ~/Library/Application\ Support -prune -o \
-        -path ~/Library/IdentityServices -prune -o \
-        -path ~/Library/Messages -prune -o \
-        -path ~/Library/HomeKit -prune -o \
-        -path ~/Library/Mail -prune -o \
-        -path ~/Library/Safari -prune -o \
-        -path ~/Library/Suggestions -prune -o \
-        -path ~/Library/Containers -prune -o \
-        -path ~/Library/PersonalizationPortrait -prune -o \
-        -path ~/Library/Metadata -prune -o \
-        -path ~/Library/Cookies -prune -o \
-        -path ~/Library/Caches -prune -o \
-        -iname "*$@*" -print
-}
-
 fun () {
     print -l ${(ok)functions}
 }

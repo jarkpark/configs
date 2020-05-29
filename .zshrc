@@ -68,7 +68,7 @@ ZSH_CUSTOM=~/repos/dotfiles/.oh-my-zsh-custom/
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(encode64 extract git docker docker-machine kubectl systemadmin zsh-autosuggestions)
+plugins=(encode64 extract fasd fzf fzf-z git docker docker-machine kubectl systemadmin zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -97,6 +97,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# $EDITOR required for fasd alias "v"
+export EDITOR="vim"
+
+# Make fzf-z to use recent dirs tracked by fasd
+export FZFZ_RECENT_DIRS_TOOL="fasd"
 
 if [ -f ~/repos/dotfiles_work/.zshrc ]; then
     source ~/repos/dotfiles_work/.zshrc
