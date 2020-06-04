@@ -46,6 +46,7 @@ formulae=(
     git
     go
     gradle
+    grpc
     kubernetes-cli
     maven
     node
