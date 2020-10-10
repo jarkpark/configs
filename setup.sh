@@ -2,6 +2,12 @@
 
 echo "Beginning machine setup..."
 
+# Ask for the administrator password upfront
+sudo -v
+
+# Keep-alive: update existing 'sudo' time stamp until '.macos' has finished
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+
 # install homebrew
 echo "Checking if Homebrew is installed..."
 which brew 2>&1 > /dev/null
@@ -91,6 +97,7 @@ cask_formulae=(
     google-chrome
     iterm2
     jetbrains-toolbox
+    karabiner-elements
     #postman
     spectacle
     spotify
