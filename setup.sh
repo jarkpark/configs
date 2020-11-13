@@ -42,10 +42,12 @@ fi
 # install homebrew formulae
 # TODO: add any taps necessary
 brew tap teamookla/speedtest    # for speedtest
+brew tap jakehilborn/jakehilborn    # for displayplacer
 
 formulae=(
     ack
     awscli
+    displayplacer
     exercism
     fasd
     fzf
