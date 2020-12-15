@@ -24,6 +24,9 @@ defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
 # Default web browser: set when opening Chrome
 echo "Manually set default browser when opening Chrome!"
 
+# Close windows when quitting an app
+defaults write NSGlobalDomain NSQuitAlwaysKeepsWindows -bool true
+
 
 ##################################################
 # Dock
