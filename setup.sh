@@ -112,10 +112,10 @@ do
     if [[ "$brew_cask_list" == *",$formula,"* ]]; then
         echo "$formula is already installed. Skipping!"
     else
-        echo "Intalling brew formula '$formula'"
-        brew cask install $formula
+        echo "Intalling brew cask formula '$formula'"
+        brew install --cask $formula
         if [[ $? != 0 ]]; then
-            echo "brew cask install $formula failed! Exiting install.sh!"
+            echo "brew install --cask $formula failed! Exiting install.sh!"
             exit 2
         else
             echo "brew cask formula '$formula' installed successfully!"
