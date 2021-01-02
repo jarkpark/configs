@@ -160,6 +160,9 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 2
 
 # Shortcuts > Services
+echo "Manually uncheck System Preferences > Keyboard > Shortcuts > Launchpad > Turn Dock Hiding On/Off"
+echo "Manually uncheck System Preferences > Keyboard > Shortcuts > Mission Control > Mission Control"
+echo "Manually uncheck System Preferences > Keyboard > Shortcuts > Mission Control > Application windows"
 echo "Manually uncheck System Preferences > Keyboard > Shortcuts > Services > Search man Page Index in Terminal"
 
 # Dictation > Shortcut (Off)
