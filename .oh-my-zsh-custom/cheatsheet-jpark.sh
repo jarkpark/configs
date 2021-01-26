@@ -6,6 +6,32 @@ tar -cvzf <nameOfArchive>.tar.gz <pathToArchive>
 # Extract a tar.gz
 tar -xvzf <nameOfArchive>.tar.gz [-C <pathToOutputDir>]
 
+# Extract any archive
+extract <nameOfArchive>
+
+# Encode string to base64 string
+e64 <stringToEncode>
+
+# Decode base64 string to normal string
+d64 <stringToDecode>
+
+# Get top memory process(es)
+psmem
+psmem10
+
+# Get top CPU process(es)
+pscpu
+pscpu10
+
+# Kill any process that matches a regex passed to it (greps ps)
+killit <regexOfProcessesToKill>
+
+# Get external IP address
+geteip
+
+# Determine local IP address(es)
+getip
+
 #**************************************** /General ****************************************
 ====================================================================================================
 #**************************************** Docker ****************************************
