@@ -55,6 +55,7 @@ formulae=(
     go
     gradle
     grpc
+    jq
     kubernetes-cli
     maven
     node
