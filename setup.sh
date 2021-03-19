@@ -42,12 +42,13 @@ fi
 # install homebrew formulae
 # TODO: add any taps necessary
 brew tap teamookla/speedtest    # for speedtest
-brew tap jakehilborn/jakehilborn    # for displayplacer
+# brew tap jakehilborn/jakehilborn    # for displayplacer
+brew tap homebrew/cask-drivers  # for logitech-options
 
 formulae=(
     ack
     awscli
-    displayplacer
+    #displayplacer
     exercism
     fasd
     fzf
@@ -59,6 +60,7 @@ formulae=(
     kubernetes-cli
     maven
     node
+    pipenv
     postgresql
     python
     q
@@ -101,6 +103,7 @@ cask_formulae=(
     iterm2
     jetbrains-toolbox
     karabiner-elements
+    logitech-options
     #postman
     spectacle
     spotify
