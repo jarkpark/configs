@@ -137,7 +137,10 @@ sudo chsh -s $(which zsh) $USER
 echo "Verify default shell was set to /usr/local/bin/zsh!"
 
 # symlinks
+# zsh
 ln -Fsv ~/repos/dotfiles/.zshrc ~/.zshrc
+
+# git
 if [ -f ~/repos/dotfiles_work/.gitconfig ]; then
     ln -Fsv ~/repos/dotfiles_work/.gitconfig ~/.gitconfig
 else
@@ -145,8 +148,14 @@ else
 fi
 ln -Fsv ~/repos/dotfiles/.gitignore_global ~/.gitignore_global
 ln -Fsv ~/repos/dotfiles/.gitcommit_template ~/.gitcommit_template
+
+# vim
 ln -Fsv ~/repos/dotfiles/.vim ~/.vim
 ln -Fsv ~/repos/dotfiles/.vim/vimrc ~/.ideavimrc
+
+# iTerm2
+mkdir -pv ~/Library/ApplicationSupport/iTerm2/Scripts/AutoLaunch
+ln -Fsv ~/repos/dotfiles/iterm2_auto_light_dark_theme.py ~/Library/ApplicationSupport/iTerm2/Scripts/AutoLaunch/iterm2_auto_light_dark_theme.py
 
 # configure macos settings
 source ~/repos/dotfiles/macos_settings.sh
