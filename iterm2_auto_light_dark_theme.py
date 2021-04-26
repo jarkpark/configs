@@ -8,7 +8,7 @@ async def change_theme(theme_parts, connection):
     # my parameters
     profile_name = "James"
     dark_theme = "JetBrains Darcula"
-    light_theme = "Night Owlish Light"
+    light_theme = "Solarized Light"
 
     # Themes have space-delimited attributes, one of which will be light or dark.
     if "dark" in theme_parts:
