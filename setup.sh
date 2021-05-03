@@ -71,7 +71,7 @@ formulae=(
     vim
     zsh
 )
-brew_list=","$(brew list | tr "\n" ",")
+brew_list=","$(brew list --cask | tr "\n" ",")
 echo "Installing brew formulae..."
 for formula in ${formulae[*]}
 do
@@ -92,10 +92,12 @@ done
 # install homebrew cask formulae
 # TODO: add any cask taps necessary
 brew tap homebrew/cask-fonts    # for font-fira-code
+brew tap adoptopenjdk/openjdk   # specific versions of jdk
 
 # TODO: add any Applications that exist as casks
 # virtualbox causes issues due to having to allow installer in Security & Privacy settings
 cask_formulae=(
+    adoptopenjdk15
     docker
     font-fira-code
     google-backup-and-sync 
