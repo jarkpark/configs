@@ -47,6 +47,7 @@ brew tap homebrew/cask-drivers  # for logitech-options
 formulae=(
     ack
     awscli
+    blueutil
     exercism
     fasd
     fzf
