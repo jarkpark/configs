@@ -42,13 +42,11 @@ fi
 # install homebrew formulae
 # TODO: add any taps necessary
 brew tap teamookla/speedtest    # for speedtest
-# brew tap jakehilborn/jakehilborn    # for displayplacer
 brew tap homebrew/cask-drivers  # for logitech-options
 
 formulae=(
     ack
     awscli
-    #displayplacer
     exercism
     fasd
     fzf
