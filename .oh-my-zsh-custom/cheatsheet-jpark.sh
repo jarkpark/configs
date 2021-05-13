@@ -32,6 +32,9 @@ geteip
 # Determine local IP address(es)
 getip
 
+# Test Postgres Connection
+kubectl --context=<context> --namespace=<namespace> run -it --rm --restart=Never --image=postgres <yourPodName> -- pg_isready -d <database> -h <host> -p <port(5432)> -U <user>
+
 #**************************************** /General ****************************************
 ====================================================================================================
 #**************************************** Docker ****************************************
