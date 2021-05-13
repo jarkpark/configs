@@ -55,7 +55,7 @@ defaults write com.apple.dock autohide -bool true
 defaults write com.apple.dock show-recents -bool false
 
 # Automatically hide and show the Dock (delay)
-defaults write com.apple.Dock autohide-delay -float 0
+defaults write com.apple.Dock autohide-delay -float 0.25
 
 # Automatically hide and show the Dock (duration)
 defaults write com.apple.Dock autohide-time-modifier -float 0
