@@ -1,10 +1,10 @@
 # Custom Aliases
 # Author: James Park
 
-alias dc="docker-compose"
-alias dcd="docker-compose down -v"
-alias dcu="docker-compose up -d"
-alias dcdu="docker-compose down -v && docker-compose up -d"
+alias dc="docker compose"
+alias dcd="docker compose down -v"
+alias dcu="docker compose up -d"
+alias dcdu="docker compose down -v && docker compose up -d"
 alias dm="docker-machine"
 alias dr="docker"
 alias ss="open -a ScreenSaverEngine"
