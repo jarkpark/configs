@@ -100,14 +100,14 @@ cask_formulae=(
     docker
     font-fira-code
     google-backup-and-sync 
-    google-chrome
+    #google-chrome
     iterm2
     jetbrains-toolbox
     karabiner-elements
     logitech-options
     #postman
     spectacle
-    spotify
+    #spotify
     #zoomus
 )
 brew_cask_list=","$(brew cask list | tr "\n" ",")
